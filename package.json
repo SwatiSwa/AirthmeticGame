@@ -1,0 +1,25 @@
+{
+  "name": "airthmeticgame",
+  "version": "1.0.0",
+  "description": "An app to learn airthmetic operation for \u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D \u001b[C\u001bfor kids",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwatiSwa/AirthmeticGame.git"
+  },
+  "keywords": [
+    "Airthmetic",
+    "game"
+  ],
+  "author": "Swati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwatiSwa/AirthmeticGame/issues"
+  },
+  "homepage": "https://github.com/SwatiSwa/AirthmeticGame#readme",
+  "dependencies": {
+  }
+}
