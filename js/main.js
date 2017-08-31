@@ -27,7 +27,7 @@ app.controller("airthmeticController",function($scope){
         }
         else{
             console.log("oooooo :( !!!!");
-            $('#resultImg')[0].setAttribute("src","resources/looser.gif")
+            $('#resultImg')[0].setAttribute("src","resources/looser.gif");
         }
     };
 
@@ -36,5 +36,6 @@ app.controller("airthmeticController",function($scope){
         $scope.op2="";
         $scope.operations = "";
         $scope.result = "";
+        $('#resultImg')[0].setAttribute("src","");
     };
 });
