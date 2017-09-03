@@ -12,7 +12,8 @@
   },
   "keywords": [
     "Airthmetic",
-    "game"
+    "game",
+    "heroku"
   ],
   "author": "Swati",
   "license": "ISC",
@@ -20,6 +21,9 @@
     "url": "https://github.com/SwatiSwa/AirthmeticGame/issues"
   },
   "homepage": "https://github.com/SwatiSwa/AirthmeticGame#readme",
+  "engines": {
+    "node": "4.1.1"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "cool-ascii-faces": "1.3.4",
