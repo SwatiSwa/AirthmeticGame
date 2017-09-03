@@ -1,5 +1,5 @@
 {
-  "name": "airthmeticgame",
+  "name": "arithmeticgame",
   "version": "1.0.0",
   "description": "An app to learn airthmetic operation for \u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D \u001b[C\u001bfor kids",
   "main": "index.html",
@@ -21,5 +21,11 @@
   },
   "homepage": "https://github.com/SwatiSwa/AirthmeticGame#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
   }
 }

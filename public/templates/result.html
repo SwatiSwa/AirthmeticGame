@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Results of Previous attempts...</h3>
+    <div class="blank_space"></div>
+    <input type="text" class="center_pos_comp" ng-model="searchKey" placeholder="Search...">
+    
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Operand1</th>
+                    <th>Operand2</th>
+                    <th>Operator</th>
+                    <th>Result</th>
+                    <th>Actual Result</th>
+                    <th>Success</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="data in results|filter:searchKey">
+                    <td>{{data.operand1}}</td>
+                    <td>{{data.operand2}}</td>
+                    <td>{{data.operator}}</td>
+                    <td>{{data.result}}</td>
+                    <td>{{data.actualResult}}</td>
+                    <td>{{data.success}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

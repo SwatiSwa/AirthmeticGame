@@ -1,0 +1,35 @@
+<div class="container">
+    
+    <form>
+        <legend>Let's Start...</legend>
+    
+        <div class="form-group">
+            <label for="">Operand 1</label>
+            <input type="text" class="form-control" id="op1" ng-model="game.op1" placeholder="Enter Operand1">
+        </div>
+        <div class="form-group">
+            <label for="">Operand 2</label>
+            <input type="text" class="form-control" id="op2" ng-model="game.op2" placeholder="Enter Operand2">
+        </div>
+        <div class="form-group">
+            <label for="">Operator</label>
+            <select name="operation" id="operation" ng-model="game.operation" class="form-control" required="required">
+                <option value="Add">+</option>
+                <option value="Subtract">-</option>
+                <option value="Multiply">*</option>
+                <option value="Divide">/</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">Result</label>
+            <input type="text" class="form-control" id="result" ng-model="game.result" placeholder="Your Answer Please!!!">
+        </div>
+        
+        <div>
+            <button type="button" class="btn btn-success center_pos" ng-click="clickSubmit()">Submit</button>
+            <button type="button" class="btn btn-danger center_pos" ng-click="clickReset()">Reset</button>
+        </div>
+    </form>
+</div>
+
+<img src="" id="resultImg" class="img-responsive center_pos" alt="">
